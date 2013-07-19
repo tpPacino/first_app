@@ -9,9 +9,9 @@ group :production, :staging do
   gem 'pg'
 end
 
-#group :development, :test do
+group :development, :test do
 gem 'sqlite3', '1.3.7', :require => 'sqlite3'
-#end
+end
 
 gem 'rake', '0.8.7', :require => 'rake'
 
